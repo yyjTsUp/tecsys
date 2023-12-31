@@ -1,9 +1,10 @@
 import json
 import requests
+from const import consts
 
 #登陆
 def Login(username,pwd):
-    url="http://127.0.0.1:80/api/mgr/loginReq"
+    url=consts.domain+consts.login_url
     headers={
         "Content-Type":"application/x-www-form-urlencoded"      #data=dict
                       #"application/json"                       #data=str
@@ -15,3 +16,8 @@ def Login(username,pwd):
     }
     resp=requests.post(url,headers=headers,data=data)
     return json.loads(resp.text)
+
+if __name__=="__main__":
+    print(Login('auto','sdfsdfsdf'))
+
+
