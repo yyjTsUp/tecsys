@@ -1,0 +1,67 @@
+2024-02-26 21:02:52,756-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/sq_mgr/，服务器返回结果：{"retcode": 0, "id": 2184}
+2024-02-26 21:04:21,046-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 21:04:40,121-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 21:04:57,658-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 21:30:42,399-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 22:45:50,842-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 22:45:50,914-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:45:50,983-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:45:51,050-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:08,905-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 22:47:08,981-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:09,052-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:09,119-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:35,797-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 22:47:35,885-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:35,955-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:47:36,026-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:48:51,911-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-26 22:48:51,989-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:48:52,059-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-26 22:48:52,132-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:11:34,239-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/sq_mgr/，服务器返回结果：{"retcode": 2, "reason": "\u540c\u540d\u8bfe\u7a0b\u5b58\u5728"}
+2024-02-27 17:12:47,237-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/sq_mgr/，服务器返回结果：{"retcode": 0, "id": 2185}
+2024-02-27 17:13:06,221-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:13:06,293-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:13:06,372-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:13:06,452-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:20:39,220-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:20:39,291-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:20:39,379-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:20:39,449-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:12,649-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:21:12,754-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:12,843-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:12,927-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:41,116-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:21:41,215-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:41,285-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:21:41,358-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:24:43,077-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:24:43,149-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:24:43,219-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:24:43,290-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:27:16,651-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:27:16,729-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 17:27:16,821-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 17:27:16,892-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 17:46:51,101-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:46:51,176-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:46:51,248-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:46:51,318-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "\u7528\u6237\u6216\u8005\u5bc6\u7801\u9519\u8bef"}
+2024-02-27 17:58:17,976-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 17:58:18,057-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 17:58:18,129-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 17:58:18,199-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 18:02:44,313-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 18:02:44,383-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 18:02:44,456-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 18:02:44,533-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:01:09,421-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 21:01:09,516-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:01:09,607-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:01:09,692-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:02:50,376-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 0}
+2024-02-27 21:02:50,445-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:02:50,516-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
+2024-02-27 21:02:50,570-INFO-请求方法：POST，请求url：http://127.0.0.1:80/api/mgr/loginReq，服务器返回结果：{"retcode": 1, "reason": "用户或者密码错误"}
