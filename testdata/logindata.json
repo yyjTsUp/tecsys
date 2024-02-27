@@ -1,0 +1,22 @@
+{
+"success": {
+  "name": "auto",
+  "password": "sdfsdfsdf",
+  "retcode": 0
+},
+  "error name": {
+    "name": "error",
+    "password": "sdfsdfsdf",
+    "retcode": 1
+  },
+    "None name": {
+    "name": "error",
+    "password": "sdfsdfsdf",
+    "retcode": 1
+  },
+    "error password": {
+    "name": "auto",
+    "password": "error",
+    "retcode": 1
+  }
+}
