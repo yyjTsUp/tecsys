@@ -9,7 +9,7 @@ from const import consts
 class TestLession(BaseCase):
     def test_01_addlession(self):
         adddata = {
-            "name": "大学forth高等数学",
+            "name": "大等数学",
             "desc": "大学基础课程",
             "display_idx": "1"
         }
@@ -20,7 +20,7 @@ class TestLession(BaseCase):
 
     def test_01_addlession(self):
         adddata = {
-            "name": "大学forth高等数学",
+            "name": "大学开心高等数学",
             "desc": "大学基础课程",
             "display_idx": "1"
         }

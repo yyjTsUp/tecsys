@@ -20,13 +20,11 @@ class BaseCase(unittest.TestCase):
         method = method.upper()
         if method == "GET":
             res = requests.get(url, params=params, **args)
-            msg=res.text
-            logger.info(f'请求方法：{method},请求url：{url},服务器返回结果：{msg}')
+            res_de=res.text.encode('utf-8').decode('unicode_escape')
+            logger.info(f'请求方法：{method},请求url：{url},服务器返回结果：{res_de}')
             return res
         elif method == 'POST':
             res = requests.post(url, data=data, json=json, **args)
-            print(1,res.text,type(res.text))
-            # msg=json.loads(res.text)
-            # print(2,msg,type(msg))
-            logger.info(f'请求方法：{method}，请求url：{url}，服务器返回结果：{res.text}')
+            res_de=res.text.encode('utf-8').decode('unicode_escape')
+            logger.info(f'请求方法：{method}，请求url：{url}，服务器返回结果：{res_de}')
             return res
