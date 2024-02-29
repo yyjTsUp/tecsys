@@ -1,8 +1,7 @@
 import json
-import unittest
 from Common import login
 from Common.basecase import BaseCase
-from ddt import ddt,data,unpack,file_data
+from ddt import ddt,file_data
 @ddt
 class TestLogin(BaseCase):
     # 登陆-成功
@@ -11,3 +10,4 @@ class TestLogin(BaseCase):
         resp = login.Login(name, password)
         res = json.loads(resp) #转成dict
         assert res["retcode"] == retcode
+
