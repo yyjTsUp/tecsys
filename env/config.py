@@ -12,3 +12,4 @@ import yaml
 conf_yml =os.path.join(os.path.dirname(os.path.abspath(__file__)),'config.yml')
 with open(conf_yml,encoding='utf-8') as f:
     data=yaml.safe_load(f)
+    print(data)

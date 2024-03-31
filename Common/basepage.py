@@ -7,15 +7,10 @@
 '''
 import time
 import traceback
-
 from selenium.webdriver.common.by import By
-
 from common.logger import logger
-
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as exp
-from selenium.webdriver.support.ui import Select
-
 from common.driver import wdriver
 
 
@@ -24,6 +19,7 @@ class BasePage:
     def __init__(self):
         # 获取driver
         self.driver = wdriver()
+        self.test='***********这是BasePage的test属性'
 
     def wait_element(self, by, element):
         '''
@@ -83,7 +79,6 @@ class BasePage:
 
 if __name__ == '__main__':
     m = BasePage()
-    m.driver.get('https://www.baidu.com/')
-    ele = m.find_element(By.CLASS_NAME, "hot-refresh-text")
-    ele.click()
+    m.driver.get('https://www.imyfone.cn/')
+    ele = m.find_element(By.ID, "Login")
     time.sleep(3)

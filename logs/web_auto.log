@@ -153,3 +153,105 @@ Stacktrace:
 2024-03-30 11:02:33,558-DEBUG-元素定位成功：hot-refresh-text
 2024-03-30 11:58:55,641-DEBUG-元素定位成功：hot-refresh-text
 2024-03-30 16:15:36,081-DEBUG-元素定位成功：hot-refresh-text
+2024-03-30 16:31:48,589-DEBUG-元素定位成功：Login
+2024-03-30 18:26:52,181-DEBUG-元素定位成功：tab-password
+2024-03-30 18:27:03,325-ERROR-Traceback (most recent call last):
+  File "C:\Software\yangyj\TecSys\common\basepage.py", line 33, in wait_element
+    element = WebDriverWait(self.driver, timeout=10).until(
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6418770C2+63090]
+	(No symbol) [0x00007FF6417E2D12]
+	(No symbol) [0x00007FF64167EC65]
+	(No symbol) [0x00007FF6416C499D]
+	(No symbol) [0x00007FF6416C4ADC]
+	(No symbol) [0x00007FF641705B37]
+	(No symbol) [0x00007FF6416E701F]
+	(No symbol) [0x00007FF641703412]
+	(No symbol) [0x00007FF6416E6D83]
+	(No symbol) [0x00007FF6416B83A8]
+	(No symbol) [0x00007FF6416B9441]
+	GetHandleVerifier [0x00007FF641C7262D+4238301]
+	GetHandleVerifier [0x00007FF641CAF78D+4488509]
+	GetHandleVerifier [0x00007FF641CA7A6F+4456479]
+	GetHandleVerifier [0x00007FF641950606+953270]
+	(No symbol) [0x00007FF6417EE5DF]
+	(No symbol) [0x00007FF6417E92B4]
+	(No symbol) [0x00007FF6417E93EB]
+	(No symbol) [0x00007FF6417D9C24]
+	BaseThreadInitThunk [0x00007FFD8839257D+29]
+	RtlUserThreadStart [0x00007FFD8976AA58+40]
+
+
+2024-03-30 18:27:08,383-ERROR-Traceback (most recent call last):
+  File "C:\Software\yangyj\TecSys\common\basepage.py", line 73, in find_element
+    r = self.driver.find_element(by, element)
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div/div[3]/div[2]/div/form/div/div/div/div[1]/div/svg/use"}
+  (Session info: chrome=123.0.6312.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6418770C2+63090]
+	(No symbol) [0x00007FF6417E2D12]
+	(No symbol) [0x00007FF64167EC65]
+	(No symbol) [0x00007FF6416C499D]
+	(No symbol) [0x00007FF6416C4ADC]
+	(No symbol) [0x00007FF641705B37]
+	(No symbol) [0x00007FF6416E701F]
+	(No symbol) [0x00007FF641703412]
+	(No symbol) [0x00007FF6416E6D83]
+	(No symbol) [0x00007FF6416B83A8]
+	(No symbol) [0x00007FF6416B9441]
+	GetHandleVerifier [0x00007FF641C7262D+4238301]
+	GetHandleVerifier [0x00007FF641CAF78D+4488509]
+	GetHandleVerifier [0x00007FF641CA7A6F+4456479]
+	GetHandleVerifier [0x00007FF641950606+953270]
+	(No symbol) [0x00007FF6417EE5DF]
+	(No symbol) [0x00007FF6417E92B4]
+	(No symbol) [0x00007FF6417E93EB]
+	(No symbol) [0x00007FF6417D9C24]
+	BaseThreadInitThunk [0x00007FFD8839257D+29]
+	RtlUserThreadStart [0x00007FFD8976AA58+40]
+
+
+2024-03-30 18:30:35,943-DEBUG-元素定位成功：tab-password
+2024-03-30 18:30:35,977-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9d656951286e96e3022b03b47ab60416", element="f.7A994072347CF416ACB0B27B4E257404.d.6E9D3DC39487869738CAEE65228AC97C.e.17")>
+2024-03-30 18:30:35,982-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-30 18:33:14,652-DEBUG-元素定位成功：tab-password
+2024-03-30 18:33:14,688-DEBUG-元素定位成功：email
+2024-03-30 18:33:14,717-DEBUG-元素定位成功：email
+2024-03-30 18:33:14,760-DEBUG-元素定位成功：password
+2024-03-30 18:33:14,783-DEBUG-元素定位成功：password
+2024-03-30 18:33:14,811-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c34acfa1ec0769f30de081c78595ce58", element="f.E99030C8109C4134BECCBAC52BA9D8CE.d.4F440140070DBF8EC3F902D9D7EDBC4F.e.21")>
+2024-03-30 18:33:14,814-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-30 18:33:14,834-DEBUG-元素定位成功：Next_Login
+2024-03-30 18:35:05,213-DEBUG-元素定位成功：tab-password
+2024-03-30 18:35:05,247-DEBUG-元素定位成功：email
+2024-03-30 18:35:05,277-DEBUG-元素定位成功：email
+2024-03-30 18:35:05,319-DEBUG-元素定位成功：password
+2024-03-30 18:35:05,342-DEBUG-元素定位成功：password
+2024-03-30 18:35:05,366-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b0cf3cd7a6756760f0183ba38c2b1b5d", element="f.EACA248E32B7822005D3F93800242D7C.d.30BC4D4BCC8CE2044174EEE01DD511B6.e.20")>
+2024-03-30 18:35:05,369-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-30 18:35:05,388-DEBUG-元素定位成功：Next_Login
+2024-03-30 18:39:05,257-DEBUG-元素定位成功：tab-password
+2024-03-30 18:39:05,298-DEBUG-元素定位成功：email
+2024-03-30 18:39:05,323-DEBUG-元素定位成功：email
+2024-03-30 18:39:05,369-DEBUG-元素定位成功：password
+2024-03-30 18:39:05,393-DEBUG-元素定位成功：password
+2024-03-30 18:39:05,425-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d5a64971f26643da0d8db910165320df", element="f.1B05510AD2C6C3A7E2805A95F26CF81C.d.337D75EECE6B8B5CC0099A7C554737ED.e.20")>
+2024-03-30 18:39:05,428-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-30 18:39:05,450-DEBUG-元素定位成功：Next_Login
+2024-03-30 18:39:39,143-DEBUG-元素定位成功：tab-password
+2024-03-30 18:39:39,179-DEBUG-元素定位成功：email
+2024-03-30 18:39:39,209-DEBUG-元素定位成功：email
+2024-03-30 18:39:39,252-DEBUG-元素定位成功：password
+2024-03-30 18:39:39,277-DEBUG-元素定位成功：password
+2024-03-30 18:39:39,303-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ba6f809f3b975b2fb1be11b203a9df44", element="f.719981333C2642F037E5B448FA155005.d.85C5AC6A029B67CE255EB9D37FBB8165.e.20")>
+2024-03-30 18:39:39,307-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-30 18:39:39,329-DEBUG-元素定位成功：Next_Login
