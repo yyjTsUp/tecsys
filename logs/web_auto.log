@@ -255,3 +255,69 @@ Stacktrace:
 2024-03-30 18:39:39,303-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ba6f809f3b975b2fb1be11b203a9df44", element="f.719981333C2642F037E5B448FA155005.d.85C5AC6A029B67CE255EB9D37FBB8165.e.20")>
 2024-03-30 18:39:39,307-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
 2024-03-30 18:39:39,329-DEBUG-元素定位成功：Next_Login
+2024-03-31 09:46:03,582-DEBUG-元素定位成功：tab-password
+2024-03-31 09:46:03,620-DEBUG-元素定位成功：email
+2024-03-31 09:46:03,647-DEBUG-元素定位成功：email
+2024-03-31 09:46:03,696-DEBUG-元素定位成功：password
+2024-03-31 09:46:03,719-DEBUG-元素定位成功：password
+2024-03-31 09:46:03,743-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ebdc636e011755228bdedb0e548514aa", element="f.BA1A38BDFCE78F05A592FCC52CBC92C7.d.A2E04A8EFCC19E79BA99F4391062B17C.e.17")>
+2024-03-31 09:46:03,747-DEBUG-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-03-31 09:46:03,770-DEBUG-元素定位成功：Next_Login
+2024-03-31 11:38:18,427-ERROR-Traceback (most recent call last):
+  File "C:\Software\yangyj\TecSys\common\basepage.py", line 73, in find_element
+    r = self.driver.find_element(by, element)
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ybfyyj1994\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav"}
+  (Session info: chrome=123.0.6312.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF745A670C2+63090]
+	(No symbol) [0x00007FF7459D2D12]
+	(No symbol) [0x00007FF74586EC65]
+	(No symbol) [0x00007FF7458B499D]
+	(No symbol) [0x00007FF7458B4ADC]
+	(No symbol) [0x00007FF7458F5B37]
+	(No symbol) [0x00007FF7458D701F]
+	(No symbol) [0x00007FF7458F3412]
+	(No symbol) [0x00007FF7458D6D83]
+	(No symbol) [0x00007FF7458A83A8]
+	(No symbol) [0x00007FF7458A9441]
+	GetHandleVerifier [0x00007FF745E6262D+4238301]
+	GetHandleVerifier [0x00007FF745E9F78D+4488509]
+	GetHandleVerifier [0x00007FF745E97A6F+4456479]
+	GetHandleVerifier [0x00007FF745B40606+953270]
+	(No symbol) [0x00007FF7459DE5DF]
+	(No symbol) [0x00007FF7459D92B4]
+	(No symbol) [0x00007FF7459D93EB]
+	(No symbol) [0x00007FF7459C9C24]
+	BaseThreadInitThunk [0x00007FFE3998257D+29]
+	RtlUserThreadStart [0x00007FFE3A58AA58+40]
+
+
+2024-03-31 11:41:55,758-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 11:44:03,069-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 11:46:42,836-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 11:46:45,942-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="0d4832687599af4a29090025ca6f15d3", element="f.AD19B97A0174C92A14408E0CC2777A72.d.7DCB68D81742D037A761F6B69A162E9A.e.23")>
+2024-03-31 12:03:14,035-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 12:03:14,116-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="4a97a6013de86cab03a91069c9cf69ba", element="f.3E6BD0051026749F05D508BAD4D64C4D.d.A0FADC6A157FE5A1A353343E35315A90.e.23")>
+2024-03-31 15:37:55,302-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 15:37:55,307-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 16:21:58,321-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 16:21:58,393-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="8b783f6b457f91a6d95039c19a008a20", element="f.C6FDEAD272A3A922FE60B33BCFBA0F5C.d.F71D5173EECCFFA1D82164D7D2AE5204.e.23")>
+2024-03-31 18:06:19,933-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 18:06:20,034-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="983e22b06875e979a3ca61234c882e53", element="f.4CF5523DC9A92B9732DE7C1DB282FC9E.d.88AC3FE1E6F3B5DC97E5F85E42C5054D.e.20")>
+2024-03-31 18:24:21,563-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 18:24:21,631-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="78c0bd7cd31b8f42e19400ec18bb5890", element="f.1D12420875EE28C6FE45820FDA517051.d.AD93D5765B5FFCB5156F862D37C37095.e.23")>
+2024-03-31 18:27:17,706-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 18:27:17,802-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="64ded8cac8a5ab6c808d87f300430f60", element="f.61D59391503D5ABD68D2D6C9C5247860.d.C136EA30B1107AC1322112B083C7B1BE.e.23")>
+2024-03-31 18:35:13,569-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-03-31 18:35:13,655-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="a07ad72275598f0f8764f79edc879723", element="f.3E7148E437EC0BF5A18ADED8DCEE1E31.d.5CF76364F078F7F01324318B203C4DCC.e.23")>
+2024-03-31 18:38:25,757-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 18:43:40,612-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 18:51:14,635-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 18:56:01,294-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-03-31 20:52:03,421-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]

@@ -3,12 +3,19 @@
 # coding=utf-8
 # coding: utf-8
 from business.loginpage import LoginPage
+from env.config import data
 
 
 def test_login():
     login_page = LoginPage()
-    login_page.driver.get('https://accounts.wondershare.cn/web/login_cn')
-    # 页面操作
+    login_page.driver.get(data["env"]["prod"]["loginpage"])
+    '''
+    页面操作：
+    1/切换到密码登录
+    2/输入账号密码
+    3/同意隐私政策
+    4/点击登录
+    '''
     login_page.click_passwd_login()
     login_page.enter_username('15827700311')
     login_page.enter_passwd('yj19940814')

@@ -3,4 +3,5 @@ env:
     webpage: www.ifonelab.clevguard.com
 
   prod:
-    mainpage: https://www.wondershare.cn/
+    mainpage: https://miao.wondershare.cn/
+    loginpage: https://accounts.wondershare.cn/web/login_cn

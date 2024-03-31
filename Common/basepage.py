@@ -14,11 +14,11 @@ from selenium.webdriver.support import expected_conditions as exp
 from common.driver import wdriver
 
 
-class BasePage:
+class BasePage():
 
-    def __init__(self):
+    def __init__(self,options=None):
         # 获取driver
-        self.driver = wdriver()
+        self.driver = wdriver(options)
         self.test='***********这是BasePage的test属性'
 
     def wait_element(self, by, element):
@@ -31,7 +31,7 @@ class BasePage:
         try:
 
             element = WebDriverWait(self.driver, timeout=10).until(
-                exp.presence_of_element_located(
+                exp.element_to_be_clickable(
                     (by, element)
                 )
             )
@@ -71,9 +71,26 @@ class BasePage:
         try:
 
             r = self.driver.find_element(by, element)
-            logger.debug(f"元素定位成功：{element}")
+            logger.info(f"元素定位成功：{element}")
             return r
         except Exception as e:
+
+            logger.error(traceback.format_exc())
+
+    def find_elements(self, by, element):
+        '''
+        用于查找元素
+        :param by: 元素定位方法
+        :param element:
+        :return:
+        '''
+        try:
+
+            r = self.driver.find_elements(by, element)
+            logger.info(f"元素定位成功：{element}")
+            return r
+        except Exception as e:
+
             logger.error(traceback.format_exc())
 
 
