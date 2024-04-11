@@ -321,3 +321,14 @@ Stacktrace:
 2024-03-31 18:51:14,635-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
 2024-03-31 18:56:01,294-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
 2024-03-31 20:52:03,421-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
+2024-04-01 18:23:14,932-INFO-元素定位成功：tab-password
+2024-04-01 18:23:14,969-INFO-元素定位成功：email
+2024-04-01 18:23:14,998-INFO-元素定位成功：email
+2024-04-01 18:23:15,039-INFO-元素定位成功：password
+2024-04-01 18:23:15,062-INFO-元素定位成功：password
+2024-04-01 18:23:15,128-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ec3daa50b1ba5b3ff7f728df5000a773", element="f.423B967A1E0A5E49853818427D1C250C.d.D6140A3137536EEA3B25A50A1DE06AC4.e.1120")>
+2024-04-01 18:23:15,132-INFO-元素定位成功：//*[@class='icon-svg_checkout-off icon-size']
+2024-04-01 18:23:15,159-INFO-元素定位成功：Next_Login
+2024-04-01 18:23:34,821-INFO-元素定位成功：/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav
+2024-04-01 18:23:34,903-DEBUG-元素定位成功：<selenium.webdriver.remote.webelement.WebElement (session="a678edeb8b7768b7a896289539e5067f", element="f.36066C717643E58B8F1ABBD6114C31EA.d.6AC5DC2D7EA0F99D4440282A0174F0AB.e.2833")>
+2024-04-01 18:24:05,917-INFO-元素定位成功：/html/body/main/section[1]/div[2]/div/a[1]
