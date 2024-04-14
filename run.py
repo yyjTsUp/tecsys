@@ -5,5 +5,5 @@
 import pytest
 from notify import dingding
 if __name__ == '__main__':
-    pytest.main(['testcases/test_mainpage.py'])
+    pytest.main(['testcases'])
     dingding.DingTalkSendMag().push_message()

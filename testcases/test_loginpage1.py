@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 # coding=utf-8
 # coding: utf-8
+import pytest
+
 from business.loginpage import LoginPage
 from env.config import data
 
-
 def test_login(wdriver):
-    login_page = LoginPage(wdriver)
+    login_page = LoginPage(mydriver=wdriver)
     login_page.driver.get(data["env"]["prod"]["loginpage"])
     '''
     页面操作：
@@ -23,3 +24,14 @@ def test_login(wdriver):
     login_page.click_login()
     # 断言
     assert login_page.driver.title =='帐号中心'
+def test_point(wdriver):
+    driver = wdriver
+    driver.get('https://www.jd.com/')
+    assert driver.current_url == 'https://www.jd.com/'
+
+def test_point_case(wdriver):
+    driver = wdriver
+    driver.get('https://www.vip.com/')
+    assert driver.current_url == 'https://www.vip.com/'
+
+

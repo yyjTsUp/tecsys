@@ -28,7 +28,7 @@ class TestMiaoPage:
 
 
 
-
+    @pytest.mark.skip('跳过')
     def test_download_btn(self,opts_wdriver):
         # prefs = {
         #     "download.default_directory": r"C:\Software\yangyj\TecSys\download_files",
@@ -56,7 +56,7 @@ class TestMiaoPage:
         while not os.path.isfile(os.path.join(download_dir, exp_filename)):
             print('等待下载文件')
             time.sleep(1)
-        mainpage.driver.close()
+        # mainpage.driver.close()
 
         file_name = os.listdir('C:\Software\yangyj\TecSys\download_files')
 

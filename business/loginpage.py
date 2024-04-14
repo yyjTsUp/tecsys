@@ -1,14 +1,13 @@
 # author:yyj time:2024/3/29
 # -*- coding: utf-8 -*-
 # coding=utf-8
-import time
 from selenium.webdriver.common.by import By
 from common.basepage import BasePage
 
 class LoginPage(BasePage):
-    def __init__(self,options=None,mydriver=None):
+    def __init__(self,mydriver=None):
         # 调用父类的构造函数
-        super().__init__(options,mydriver)
+        super().__init__(mydriver)
         #页面元素
         self.passwd_login_btn=(By.ID,'tab-password')
         self.email=(By.NAME,'email')

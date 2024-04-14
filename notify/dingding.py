@@ -17,8 +17,14 @@ class DingTalkSendMag:
         report_dict = report_summary.read_report()
         self.case_num = report_dict["summary"]["total"]
         self.passed_num = report_dict["summary"]["passed"]
-        self.failed_num = report_dict["summary"]["failed"]
-        self.skipped_num = report_dict["summary"]["skipped"]
+        if "failed" in report_dict["summary"] :
+            self.failed_num = report_dict["summary"]["failed"]
+        else:
+            self.failed_num = 0
+        if "skipped" in report_dict["summary"]:
+            self.skipped_num = report_dict["summary"]["skipped"]
+        else:
+            self.skipped_num = 0
         # 集成jenkins后，用jenkins上的链接
         self.report_url = 'file:///C:/Users/ybfyyj1994/PycharmProjects/pythonProject1/report.html?sort=result'
         self.duration = round(report_dict["duration"], 2)
