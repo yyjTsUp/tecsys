@@ -6,9 +6,9 @@ from selenium.webdriver.common.by import By
 from common.basepage import BasePage
 
 class LoginPage(BasePage):
-    def __init__(self):
+    def __init__(self,options=None,mydriver=None):
         # 调用父类的构造函数
-        super().__init__()
+        super().__init__(options,mydriver)
         #页面元素
         self.passwd_login_btn=(By.ID,'tab-password')
         self.email=(By.NAME,'email')
@@ -40,7 +40,6 @@ if __name__ == '__main__':
     T.driver.get('https://accounts.wondershare.cn/web/login_cn')
     T.click_passwd_login()
     T.click_private_btn()
-    time.sleep(3)
 
 
 

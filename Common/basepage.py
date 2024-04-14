@@ -11,15 +11,23 @@ from selenium.webdriver.common.by import By
 from common.logger import logger
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as exp
-from common.driver import wdriver
+from common.driver import comdriver
+import conftest
 
 
-class BasePage():
+class BasePage:
 
-    def __init__(self,options=None):
-        # 获取driver
-        self.driver = wdriver(options)
-        self.test='***********这是BasePage的test属性'
+    def __init__(self, mydriver=None):
+        """
+        判断：实例化对象如果指定driver，则用指定的driver;没有指定传值，则用common包里面的driver
+        用途：执行用例的时候，pytest默认从conftest.py的fixture找driver，使得所有用例用一个driver实例
+        :param options:
+        :param mydriver:
+        """
+        if mydriver is None:
+            self.driver =comdriver()
+        else:
+            self.driver=mydriver
 
     def wait_element(self, by, element):
         '''
@@ -98,4 +106,5 @@ if __name__ == '__main__':
     m = BasePage()
     m.driver.get('https://www.imyfone.cn/')
     ele = m.find_element(By.ID, "Login")
+    m.driver.get('https://www.baidu.com/')
     time.sleep(3)

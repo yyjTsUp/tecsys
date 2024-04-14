@@ -5,6 +5,7 @@
 import os
 import time
 
+import pytest
 from selenium.webdriver.chrome import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -13,9 +14,8 @@ from env.config import data
 
 
 class TestMiaoPage:
-    def test_top_navbar(self):
-        mainpage = MainPage()
-        # mainpage.driver.get(data["env"]["prod"]["mainpage"])
+    def test_top_navbar(self,wdriver):
+        mainpage = MainPage(mydriver=wdriver)
         '''
         页面操作：
         1/点击顶部导航栏：产品
@@ -26,16 +26,19 @@ class TestMiaoPage:
         expurl = 'https://miao.wondershare.cn/product-2023.html'
         assert mainpage.driver.current_url == expurl
 
-    def test_download_btn(self):
-        prefs = {
-            "download.default_directory": r"C:\Software\yangyj\TecSys\download_files",
-            "profile.default_content_setting_values.automatic_downloads": 1,
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True
-        }
-        chrome_options = Options()
-        chrome_options.add_experimental_option('prefs',prefs)
-        mainpage = MainPage(chrome_options)
+
+
+
+    def test_download_btn(self,opts_wdriver):
+        # prefs = {
+        #     "download.default_directory": r"C:\Software\yangyj\TecSys\download_files",
+        #     "profile.default_content_setting_values.automatic_downloads": 1,
+        #     "download.prompt_for_download": False,
+        #     "download.directory_upgrade": True
+        # }
+        # chrome_options = Options()
+        # chrome_options.add_experimental_option('prefs',prefs)
+        mainpage = MainPage(mydriver=opts_wdriver)
         '''
         页面操作：
         1、设置下载路径
@@ -51,9 +54,10 @@ class TestMiaoPage:
         exp_filename = 'filmora_setup_full13770.exe'
         download_dir = 'C:\Software\yangyj\TecSys\download_files'
         while not os.path.isfile(os.path.join(download_dir, exp_filename)):
-                time.sleep(1)
+            print('等待下载文件')
+            time.sleep(1)
+        mainpage.driver.close()
 
         file_name = os.listdir('C:\Software\yangyj\TecSys\download_files')
-        print(file_name)
 
         assert file_name[0] == exp_filename

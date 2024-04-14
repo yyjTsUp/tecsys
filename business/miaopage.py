@@ -10,8 +10,8 @@ from env.config import data
 
 class MainPage(BasePage):
 
-    def __init__(self,options=None):
-        super().__init__(options)
+    def __init__(self,mydriver=None):
+        super().__init__(mydriver)
         self.driver.get(data["env"]["prod"]["mainpage"])
         # 页面元素
         self.product_btn = (By.XPATH, '/html/body/header/nav[2]/div/div/div[2]/ul/li[1]/nav')
@@ -59,4 +59,4 @@ class MainPage(BasePage):
 
 if __name__ == '__main__':
     m = MainPage()
-    m.login_page()
+    m.click_product_btn()

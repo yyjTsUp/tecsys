@@ -6,8 +6,8 @@ from business.loginpage import LoginPage
 from env.config import data
 
 
-def test_login():
-    login_page = LoginPage()
+def test_login(wdriver):
+    login_page = LoginPage(wdriver)
     login_page.driver.get(data["env"]["prod"]["loginpage"])
     '''
     页面操作：
